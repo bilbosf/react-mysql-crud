@@ -1,5 +1,7 @@
 # React-JS--Crud-Mysql
 
+Based on [victorLostadaC's code](https://github.com/vitorLostadaC/React-JS--Crud-Mysql)
+
  <p align="center">
   <img src="client/src/assets/to_readme/ScrimShop.gif" width="600px">
 </p>
