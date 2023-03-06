@@ -78,4 +78,18 @@ app.delete("/delete/:id", (req, res) => {
 
 app.listen(config.LISTEN_PORT, () => {
   console.log(`rodando na porta ${config.LISTEN_PORT}`);
+
+  let mysql = `CREATE TABLE IF NOT EXISTS ${config.MYSQL_TABLE} (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(45) NOT NULL,
+    cost VARCHAR(45) NOT NULL,
+    category VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id));`;
+
+  db.query(mysql, (err, result) => {
+    if (err) {
+      console.log(err);
+    }
+  });
+
 });
