@@ -3,7 +3,7 @@ const MYSQL_USER = "root";
 const MYSQL_PASSWORD = "password";
 const MYSQL_DATABASE = "gameshop";
 const MYSQL_TABLE = "games";
-const LISTEN_PORT = 3001;
+const LISTEN_PORT = 3000;
 
 module.exports = {
     MYSQL_HOST,
