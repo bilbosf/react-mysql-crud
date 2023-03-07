@@ -1,1 +1,1 @@
-export const SERVER_HOST = "ec2-3-12-148-67.us-east-2.compute.amazonaws.com:3000"
+export const SERVER_HOST = "http://lb-gameshop-backend-46418367.us-east-2.elb.amazonaws.com:3000"

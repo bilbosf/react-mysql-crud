@@ -39,6 +39,7 @@ app.post("/search", (req, res) => {
 });
 
 app.get("/getCards", (req, res) => {
+  console.log(`requisicao recebida`);
   let mysql = `SELECT * FROM ${config.MYSQL_TABLE}`;
   db.query(mysql, (err, result) => {
     if (err) {
