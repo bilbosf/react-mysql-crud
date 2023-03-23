@@ -45,6 +45,10 @@ export default function App() {
     }));
   };
 
+  useEffect(() => {
+    document.title = 'Game Shop';
+  }, []);
+
   return (
     <div className="app-container">
       <div className="register-container">
